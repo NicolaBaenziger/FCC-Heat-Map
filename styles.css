@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+#title {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#description {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#heatmap-container {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.cell {
+    stroke: #fff;
+}
+
+#legend-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.legend-cell {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    margin: 5px;
+    border: 1px solid #000;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #000;
+    padding: 10px;
+    pointer-events: none;
+    display: none;
+}
